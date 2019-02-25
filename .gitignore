@@ -1,0 +1,15 @@
+# ignore everything
+*
+# But descend into directories
+!*/
+
+# Recursively allow files under subtree
+!/*.sdk/**
+
+# And all the file types you're interested in.
+!*.bit
+!*.tcl
+!*.xpr.zip
+
+# add gitignore
+!*.gitignore
